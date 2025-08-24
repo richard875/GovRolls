@@ -3,13 +3,13 @@
 ---
 
 <div class="wrapper">
-  <h1>
+  <h1 class="fade-in-text">
     Congress shall make no law respecting an establishment of religion, or
     prohibiting the free exercise thereof; or abridging the freedom of speech,
     or of the press; or the right of the people peaceably to assemble, and to
     petition the Government for a redress of grievances.
   </h1>
-  <h2>
+  <h2 class="fade-in-text-delayed">
     The First Amendment to the Constitution of the United States of America
   </h2>
 </div>
@@ -40,6 +40,16 @@
   h2 {
     line-height: 35px;
     letter-spacing: 1.9px;
+  }
+
+  .fade-in-text {
+    opacity: 0;
+    animation: fadeIn 0.3s ease-out 0.3s forwards;
+  }
+
+  .fade-in-text-delayed {
+    opacity: 0;
+    animation: fadeIn 0.3s ease-out 0.5s forwards;
   }
 
   @media (max-width: 1200px) {
