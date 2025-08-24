@@ -48,6 +48,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
   color: #ffffff;
   background-color: #1d1d1d;
