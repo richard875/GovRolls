@@ -1,0 +1,49 @@
+/* Fonts */
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("/fonts/Cormorant-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("/fonts/Cormorant-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("/fonts/Cormorant-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  color: #ffffff;
+  background-color: #1d1d1d;
+  font-family: "Cormorant", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
